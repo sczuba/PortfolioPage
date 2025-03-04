@@ -13,8 +13,53 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #006400; /* Dark green */
+  background-color: #003300; /* Darker green */
   color: #fff; /* White text */
+  font-family: Arial, sans-serif; /* Ensure a consistent font */
+  font-size: 16px; /* Default base size */
+}
+
+/* Define heading sizes */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Ensure normal paragraph text */
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Ensure strong (bold) elements keep their style */
+strong, b {
+  font-weight: bold;
 }
 
 /* Main Page Layout */
@@ -158,28 +203,26 @@ body {
   height: auto;
 }
 
-/* Extra Extra large devices (large laptops and desktops, 1600px and below) */
+/* Responsive Design Adjustments */
+
 @media only screen and (max-width: 1600px) {
   #main-content {
     margin: 225px 275px;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1200px) {
   #main-content {
     margin: 225px 175px;
   }
 }
 
-/* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
     margin: 225px 75px;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
     margin: 150px 50px;
@@ -194,7 +237,6 @@ body {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   #main-content {
     margin: 125px 20px;
@@ -204,3 +246,4 @@ body {
     max-width: 100%;
   }
 }
+
