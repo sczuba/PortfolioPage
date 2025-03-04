@@ -21,13 +21,13 @@ body {
 }
 
 /* Ensure headings keep their natural font sizes and boldness */
-h1 {
-  font-size: 32px;
+h1, .main-title {
+  font-size: 32px; /* Set specific size for h1 and .main-title */
   font-weight: bold;
 }
 
-h2 {
-  font-size: 28px;
+h2, .subheader-text {
+  font-size: 28px; /* Set specific size for h2 and .subheader-text */
   font-weight: bold;
 }
 
@@ -126,5 +126,3 @@ strong, b {
   gap: 34px 16px;
   flex-wrap: wrap;
 }
-
-/* Pro
